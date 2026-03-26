@@ -19,3 +19,20 @@ To explore and visualize the Iris dataset.
 ## Results
 - Clear separation between species observed
 - No missing data found
+
+
+
+# Task 6: House Price Prediction
+
+## Objective
+Predict house prices using regression.
+
+## Model
+Linear Regression
+
+## Evaluation
+- MAE
+- RMSE
+
+## Result
+Model predicts prices with reasonable accuracy.
