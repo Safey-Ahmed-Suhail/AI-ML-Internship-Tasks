@@ -36,3 +36,14 @@ Linear Regression
 
 ## Result
 Model predicts prices with reasonable accuracy.
+
+
+### Task 3: Heart Disease Prediction
+- Classification model (Logistic Regression)
+- Evaluated using Accuracy, ROC-AUC, Confusion Matrix
+
+## Tools Used
+- Python
+- Pandas
+- Seaborn
+- Scikit-learn
