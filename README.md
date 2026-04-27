@@ -125,5 +125,20 @@ Regression and classification models
 Model evaluation methods
 Version control using GitHub
 
+# Task: ML Pipeline for Customer Churn
 
+## Objective
+Build an end-to-end ML pipeline for churn prediction.
+
+## Techniques Used
+- Data preprocessing
+- Pipeline (scikit-learn)
+- GridSearchCV
+
+## Models
+- Logistic Regression
+- Random Forest
+
+## Result
+Achieved good accuracy using optimized pipeline.
 
