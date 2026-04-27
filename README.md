@@ -142,3 +142,30 @@ Build an end-to-end ML pipeline for churn prediction.
 ## Result
 Achieved good accuracy using optimized pipeline.
 
+# Task: Auto Tagging Support Tickets Using LLM
+
+##  Objective
+
+To automatically classify customer support tickets into relevant categories using a pre-trained Large Language Model (LLM) without any model training.
+
+##  Methodology
+
+* Used Hugging Face **zero-shot classification pipeline**
+* Defined a set of predefined labels (e.g., Billing, Technical Issue, Account, General Inquiry)
+* Passed raw support ticket text directly to the model
+* The model predicted the most relevant categories based on semantic understanding
+* Improved classification quality by refining label descriptions for better context
+
+##  Results
+
+* The model successfully categorized support tickets into relevant classes
+* No training data or fine-tuning was required (zero-shot learning approach)
+* More descriptive labels improved prediction accuracy
+* Demonstrated strong performance in text classification using pre-trained LLMs
+
+##  Key Learning
+
+* Understood how zero-shot learning works in NLP tasks
+* Learned how prompt/label engineering improves LLM performance
+* Gained experience in applying transformer-based models for real-world classification problems
+* Explored practical use of LLMs without training or fine-tuning
