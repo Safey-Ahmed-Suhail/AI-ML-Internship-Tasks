@@ -169,3 +169,39 @@ To automatically classify customer support tickets into relevant categories usin
 * Learned how prompt/label engineering improves LLM performance
 * Gained experience in applying transformer-based models for real-world classification problems
 * Explored practical use of LLMs without training or fine-tuning
+
+
+#  Task: Context-Aware Chatbot Using LLM
+
+##  Objective
+
+To build a simple conversational chatbot capable of generating meaningful responses while maintaining basic conversation context using a pre-trained language model.
+
+##  Methodology
+
+* Used a pre-trained **Hugging Face GPT-2 language model** for text generation
+* Implemented a simple chatbot function in Python
+* Maintained conversation history manually to simulate context awareness
+* Combined previous user inputs and model responses to improve continuity
+* Generated responses based on cumulative chat history instead of isolated prompts
+
+##  Working Mechanism
+
+* User input is appended to a conversation history string
+* The full conversation history is passed as a prompt to the language model
+* The model generates a response based on prior context
+* The response is then added back into the conversation history to maintain continuity
+
+##  Results
+
+* The chatbot successfully generates coherent responses to user queries
+* Basic context awareness is achieved through history tracking
+* The model is able to respond to follow-up questions in a meaningful way
+* Demonstrates foundational conversational AI behavior without using complex frameworks
+
+##  Key Learning
+
+* Understood how conversational AI systems maintain context
+* Learned how pre-trained language models can be used for text generation
+* Gained experience in building simple chatbot systems without LangChain or external APIs
+* Understood limitations of basic LLM-based chat systems and importance of context management
